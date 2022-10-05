@@ -1,0 +1,35 @@
+#id_perimetro{
+    background-color: rgb(206, 206, 206);
+    width: 500px;  
+    height: 195px;
+    color: rgb(8, 8, 8);
+    border: 12px solid rgb(156, 154, 154);
+    float: left;
+    
+}
+
+#id_triangulo{
+    top:5px;
+    background-color: rgb(206, 206, 206);
+    width: 500px; 
+    /* width: 40%; */
+    height: 195px;
+    color: rgb(8, 8, 8);
+    border: 12px solid rgb(156, 154, 154);
+}
+
+#bono{
+    background-color: rgb(206, 206, 206);
+    width: 600px; 
+    height: 250px;
+    color: rgb(8, 8, 8);
+    border: 12px solid rgb(156, 154, 154);
+}
+
+#promedio{
+    background-color: rgb(206, 206, 206);
+    width: 600px; 
+    height: 190px;
+    color: rgb(8, 8, 8);
+    border: 12px solid rgb(156, 154, 154)
+}

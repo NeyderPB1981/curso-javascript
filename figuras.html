@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Figuras geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Este es el primer taller de JavaScript</p>
+    </header>
+    <section>
+        <fieldset id="id_perimetro">
+            <h2>Calcular el área y perímetro de un cuadrado</h2>
+            <form>
+                <label for="InpuCuadrado">Escribe cuánto mide el lado del cuadrado</label>
+                <input id="InpuCuadrado" type="number"><br><br>       
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcula el perímetro</button>
+                <button type="button" onclick="calcularArea()">Calcula el área</button>
+                <p id="PerimetroC"></p> 
+                <p id="AreaC"></p>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset id="id_triangulo">
+            <h2>Calcular el área de un triángulo </h2>
+            <form>
+                <label for="idBaseTriangulo">Escribe cuanto mide la base del triangulo</label>
+                <input id="idBaseTriangulo" type="number"><br>
+                
+                <label for="idAlturaTriangulo">Escribe cuanto mide la altura del triangulo</label>
+                <input id="idAlturaTriangulo"type="number"><br>
+                <button type="button" onclick="calcularAreaTRiangulo()">Calcular el área</button>
+                <p id="AreaT"></p> 
+                
+            </form>
+        </fieldset><br>
+        
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
